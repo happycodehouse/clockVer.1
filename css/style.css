@@ -1,0 +1,77 @@
+@import url("//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css");
+@import './common.css';
+header {
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  z-index: 99;
+  background: #2c2d2e;
+  box-shadow: 0 0 10px #000;
+}
+header i {
+  font-size: 20px;
+}
+header span {
+  font-size: 14px;
+  font-weight: 400;
+}
+header span.type {
+  font-weight: 700;
+}
+header * {
+  color: #fff;
+  font-style: normal;
+  text-transform: capitalize;
+}
+header .header_inner {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.8vw;
+}
+header .header_inner nav {
+  display: flex;
+  align-items: center;
+}
+header .header_inner nav * {
+  margin-right: 1.2vw;
+}
+header .header_inner .status {
+  display: flex;
+  align-items: center;
+}
+header .header_inner .status i {
+  margin-left: 0.8vw;
+}
+header .header_inner .status .clock {
+  margin-left: 1.2vw;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/time_waits_for_no_one.png") top/cover no-repeat;
+  position: relative;
+}
+section .icons {
+  position: absolute;
+  top: 48px;
+  right: 0;
+  padding: 20px;
+}
+section .icons .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+}
+section .icons .icon img {
+  width: 72px;
+}
+section .icons .icon h6 {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 8px;
+}/*# sourceMappingURL=style.css.map */
